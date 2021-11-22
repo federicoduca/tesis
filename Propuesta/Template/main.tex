@@ -1,0 +1,61 @@
+
+\documentclass[11pt, a4paper]{article}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\usepackage{a4wide}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{todonotes}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{url}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.markings,arrows}
+
+\parindent = 0 pt
+\parskip = 5 pt
+\setlength{\marginparwidth}{2cm} 
+
+\begin{document}
+
+\begin{center}
+	\begin{tabular}{l|c}
+		\begin{tabular}{@{} p{5.2cm} @{}}
+			\includegraphics[width=5.2cm]{img/utdt-color-baja.png}
+		\end{tabular} &
+		\begin{tabular}{c}
+			{\large\bf\textsf{\ Trabajo Final de Maestría - Propuesta\ }} \\
+			MiM + Analytics                                               \\
+		\end{tabular}
+	\end{tabular}
+	\vskip 10 pt
+	\Large Propuesta de Trabajo Final de Maestría
+\end{center}
+
+\hrule
+\vskip 5pt
+
+\begin{tabular}{lc}
+	\textsc{Alumno:} Federico Duca                       & \\
+	\textsc{Título tentativo:}                           & \\
+	\textsc{Tutor:} Andrea Paula Goldin, Agustín Gravano & \\
+\end{tabular}
+
+\vskip 10pt
+\hrule
+\vskip 10pt
+
+% \input{s_motivacion.tex}
+\input{s_objetivo.tex}
+\input{s_datos.tex}
+% \input{s_metodologia.tex}
+\input{s_cronograma.tex}
+
+\bibliographystyle{abbrv}
+\bibliography{biblio.bib}
+
+\end{document}
+
